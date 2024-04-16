@@ -72,7 +72,7 @@ public class BoardServiceImpl implements BoardService {
     @Override
     public void removeWithReplies(Long bno) {
 
-        // 댓글 부터 삭제ㄴㄴ
+        // 댓글 부터 삭제ㄴㄴㅇㄴㄹㄴㅇㄹ
         replyRepository.deleteByBno(bno);
 
         repository.deleteById(bno);
